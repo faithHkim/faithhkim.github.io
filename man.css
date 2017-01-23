@@ -1,0 +1,198 @@
+a.main {
+  text-align: center;
+  display: block;
+  font-family:Oswald;
+  font-size: 50px;
+  letter-spacing: 2px;
+  text-decoration: none;
+  color:black;
+}
+
+ul {
+list-style-type:none;
+font-family:Oswald;
+float:right;
+color:#4b4c4e;
+width:100%;
+position: relative;
+}
+
+li {
+  display:inline-block;
+  padding-top: 50px;
+  padding:10px;
+  position:absolute;
+  float:right;
+  right:0;
+  top:23px;
+  margin-right:10px;
+}
+
+li a{
+  text-decoration: none;
+  color:#4b4c4e;
+  margin:10px;
+}
+
+#pagespacer{
+  height:175px;
+  background-color: #ffffff;
+}
+
+#spacer {
+  height:300px;
+  background-color: #ffffff;
+}
+
+#pagesize {
+  height:2500px;
+}
+
+#wrapper {
+  width:1010px;
+  margin:0 auto;
+}
+
+#project1 {
+  width:500px;
+  height:450px;
+  background-color: #4286f4;
+  float:left;
+  margin-left: 30px auto;
+  margin-right: 10px;
+}
+
+#project1:hover {
+  opacity:0.5;
+}
+
+p.pt {
+  display: none;
+  text-align: center;
+  font-family: Oswald;
+  font-size: 30px;
+}
+
+#project1:hover .pt {
+  display:inline-block;
+  text-align: center;
+  width:300px;
+  color:black;
+  padding:100px;
+}
+
+#project2 {
+  width:500px;
+  height:450px;
+  background-color: #3a5a8e;
+  float:left;
+  margin-right:30px auto;
+}
+
+#project2:hover {
+  opacity:0.5;
+}
+
+#project2:hover .pt {
+  display:inline-block;
+  text-align: center;
+  width:300px;
+  color:black;
+  padding:100px;
+}
+
+#project3 {
+  width:1010px;
+  height:450px;
+  background-color: #26416d;
+  float:left;
+  margin-right:30px auto;
+  margin-top: 10px;
+}
+
+#project3:hover {
+  opacity:0.5;
+}
+
+#project3:hover .pt2 {
+
+
+}
+
+#project4 {
+  width:500px;
+  height:450px;
+  background-color: #4286f4;
+  float:left;
+  margin-left: 30px auto;
+  margin-right: 10px;
+  margin-top: 10px;
+}
+
+#project4:hover {
+  opacity:0.5;
+}
+
+#project5 {
+  width:500px;
+  height:450px;
+  background-color: #3a5a8e;
+  float:left;
+  margin-right:30px auto;
+  margin-top: 10px;
+}
+
+#project5:hover {
+  opacity:0.5;
+}
+
+p.flightdisplay {
+  font-family: oswald;
+}
+
+p.headers {
+  text-align: center;
+  display: block;
+  font-family:avenir;
+  font-weight: 300;
+  font-size: 40px;
+  color:#3e4756;
+  letter-spacing: 1px;
+ }
+
+ p.description {
+   text-align: center;
+   display: block;
+   margin: auto;
+   font-family:'Roboto Slab', serif;
+   font-size: 25px;
+   color:#3e4756;
+   width:750px;
+ }
+
+ #video {
+   margin-top: 75px;
+ }
+
+p.subtitles {
+  text-align: center;
+  display: block;
+  font-family:avenir;
+  font-weight: 300;
+  font-size: 35px;
+  color:#3e4756;
+  letter-spacing: 1px;
+  margin-top: 200px;
+}
+
+p.words {
+  text-align: left;
+  display: block;
+  font-family:avenir;
+  font-weight: lighter;
+  font-size: 20px;
+  color:#3e4756;
+  width:820px;
+  margin:auto;
+  line-height:35px;
+}
